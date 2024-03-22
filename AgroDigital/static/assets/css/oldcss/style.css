@@ -1,0 +1,416 @@
+/* BTW alt-shift will pop a color picker 
+  example color: followed  by alt shift will pop it
+*/
+/*
+Hide the label if placeholder is supported
+*/
+
+body{
+  background:#b4b4b4;
+}
+.responsive{
+	width: 100%;
+	max-width: 1920px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.menuresponsivo
+{
+	width: 30%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.contenedormaximo
+{
+	width: 68%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#perfil
+{
+	border-radius: 150px;
+	
+	width: 5.8%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-left: 75%;
+	display: inline-flex;
+}
+#logout{
+	vertical-align: 100%;
+}
+#salir{
+	height: 3%;
+	width: 3%;
+	display: inline;
+	margin-left: 0.7%;
+	margin-top: :- 2% !important;
+}
+#hperfil{
+	color:#fff;
+	display: inline-flex;
+	text-align: center;
+	vertical-align: 130%;
+}
+#hreporte{
+	margin-left: 12%;
+}
+#registration-form {
+  font-family:'Open Sans Condensed', sans-serif;
+	width: 400px;
+  min-width:250px;
+	margin: 20px auto;
+	position: relative;
+	margin-left:-30%;
+}
+
+#registration-form .fieldset {
+	background-color:#d5d5d5;
+
+	border-radius: 3px;
+  
+}
+
+ #registration-form legend {
+	text-align: center;
+	background: #364351;
+	width: 100%;
+	padding: 20px 0;
+	border-radius: 3px 3px 0 0;
+	color: white;
+font-size:1.5em;
+}
+
+.fieldset form{
+  border:1px solid #2f2f2f;
+  margin:0 auto;
+  display:block;
+  width:100%;
+  padding:30px 20px;
+  box-sizing:border-box;
+  border-radius:0 0 3px 3px;
+}
+.placeholder #registration-form label {
+	display: none;
+}
+ .no-placeholder #registration-form label{
+margin-left:5px;
+  position:relative;
+  display:block;
+  color:grey;
+  text-shadow:0 1px white;
+  font-weight:bold;
+  
+}
+/* all */
+::-webkit-input-placeholder { text-shadow:1px 1px 1px white; font-weight:bold; }
+::-moz-placeholder { text-shadow:0 1px 1px white; font-weight:bold; } /* firefox 19+ */
+:-ms-input-placeholder { text-shadow:0 1px 1px white; font-weight:bold; } /* ie */
+#registration-form input[type=text] {
+	padding: 12px 15px;
+	border-radius: 1px;
+  margin:5px auto;
+  background-color:#f7f7f7;
+	border: 1px solid silver;
+
+	-webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  -webkit-transition:background-color .5s ease;
+-moz-transition:background-color .5s ease;
+-o-transition:background-color .5s ease;
+-ms-transition:background-color .5s ease;
+transition:background-color .5s ease;
+}
+
+#registration-form input[type=email] {
+	padding: 12px 15px;
+	border-radius: 1px;
+  margin:5px auto;
+  background-color:#f7f7f7;
+	border: 1px solid silver;
+
+	-webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  -webkit-transition:background-color .5s ease;
+-moz-transition:background-color .5s ease;
+-o-transition:background-color .5s ease;
+-ms-transition:background-color .5s ease;
+transition:background-color .5s ease;
+}
+
+#registration-form input[type=number] {
+	padding: 12px 15px;
+	border-radius: 1px;
+  margin:5px auto;
+  background-color:#f7f7f7;
+	border: 1px solid silver;
+
+	-webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  -webkit-transition:background-color .5s ease;
+-moz-transition:background-color .5s ease;
+-o-transition:background-color .5s ease;
+-ms-transition:background-color .5s ease;
+transition:background-color .5s ease;
+}
+
+#registration-form input[type=password] {
+	padding: 15px 20px;
+	border-radius: 1px;
+  margin:5px auto;
+  background-color:#f7f7f7;
+	border: 1px solid silver;
+
+	-webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  -webkit-transition:background-color .5s ease;
+-moz-transition:background-color .5s ease;
+-o-transition:background-color .5s ease;
+-ms-transition:background-color .5s ease;
+transition:background-color .5s ease;
+}
+
+.no-placeholder #registration-form input[type=text] {
+	padding: 10px 20px;
+}
+
+#registration-form input[type=text]:active, .placeholder #registration-form input[type=text]:focus {
+	outline: none;
+	border-color: silver;
+  background-color:white;
+}
+
+#registration-form input[type=date]:active, .placeholder #registration-form input[type=text]:focus {
+	outline: none;
+	border-color: silver;
+  background-color:white;
+}
+
+#registration-form input[type=submit] {
+  font-family:'Open Sans Condensed', sans-serif;
+  text-transform:uppercase;
+  outline:none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #5C8CA7;
+	padding: 10px;
+	color: white;
+	border: 1px solid #3498db;
+	border-radius: 3px;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 5px;
+	cursor: pointer;
+  position:relative;
+  top:0;
+}
+
+#registration-form input[type=submit]:hover {
+	background-color: #2980b9;
+}
+
+#registration-form input[type=submit]:active {
+background:#5C8CA7;
+}
+
+
+.parsley-error-list{
+background-color:#C34343;
+padding: 5px 11px;
+margin: 0;
+list-style: none;
+border-radius: 0 0 3px 3px;
+margin-top:-5px;
+  margin-bottom:5px;
+  color:white;
+  border:1px solid #870d0d;
+  border-top:none;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position:relative;
+  top:-1px;
+  text-shadow:0px 1px 1px #460909;
+    font-weight:700;
+  font-size:12px;
+}
+.parsley-error{
+	border-color:#870d0d!important;
+  border-bottom:none;
+}
+#registration-form select{
+	width:100%;
+	padding:5px;
+}
+::-moz-focus-inner {
+  border: 0;
+}
+section{
+	clear:both;
+	box-sizing: border-box;
+
+}
+
+
+
+@media screen and (max-width: 1920px) 
+{
+  body 
+  {
+  	position:relative;
+  	width:100%; 
+  }
+
+}
+
+@media screen and (max-width: 1170px) 
+{
+ #usuarios
+ {
+  	width: 100%;
+  	margin-top:10%;
+  	margin-left: -30%;
+ }
+}
+
+@media screen and (max-width: 979px) 
+{
+ #usuarios
+ {
+  	width: 100%;
+  	margin-top:10%;
+  	margin-left: -40%;
+ }
+}
+
+@media screen and (max-width: 928px)
+{
+ #usuarios
+ {
+  	width: 100%;
+  	margin-top:12%;
+  	margin-left: -45%;
+ }
+}
+
+@media screen and (max-width: 880px) 
+{
+ #usuarios
+ {
+  	width: 100%;
+  	margin-top:30%;
+  	margin-left: -48%;
+ }
+}
+
+@media screen and (max-width: 806px) 
+{
+  #accordian
+  {
+  	width: 100%;
+  }
+  #usuarios
+  {
+  	width: 100%;
+  	margin-top:35%;
+  	margin-left: -50%;
+  }
+
+
+section
+{
+/*width: 50%;*/
+/*margin-left: -19%;*/
+}
+#logo, #perfil, #logout
+{
+	display:none;
+}
+
+#hperfil
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#hperfil:before
+{
+	content:"ATHOS";
+}
+}
+@media screen and (max-width: 670px)
+{
+ #usuarios
+ {
+  	width: 100%;
+  	margin-top:60%;
+  	margin-left: -60%;
+ }
+}
+
+@media screen and (max-width: 400px) 
+{
+ #content 
+ {
+ 	display:block; float:none; 
+ }
+
+ table {
+           width:100%;
+       }
+       thead {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+       tr td:first-child {
+           background: #f0f0f0;
+           font-weight:bold;
+           font-size:1.3em;
+       }
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+#usuarios
+ {
+  	width: 100%;
+  	margin-top:35%;
+  	margin-left: -20%;
+ }
+}
